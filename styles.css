@@ -1,10 +1,10 @@
 
 body {
   background: url('pawprint-background.jpg') repeat;
+  background-size: contain;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-size: contain;
 }
 
 nav a {
@@ -19,7 +19,7 @@ nav a:hover {
 
 main {
   padding: 20px;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.85);
   margin: 20px;
   border-radius: 10px;
 }
