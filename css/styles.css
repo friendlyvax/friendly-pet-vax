@@ -11,3 +11,49 @@ nav { display: flex; justify-content: space-between; align-items: center; max-wi
 .btn { display: inline-block; margin-top: 1rem; background: #001f3f; color: white; padding: 0.75rem 1.25rem; text-decoration: none; border-radius: 5px; }
 footer { text-align: center; background: #b22222; color: white; padding: 1rem; }
 <link rel="stylesheet" href="style.css">
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url('pawprint-background.png'); /* Path to the paw print image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* Header Section with Logo */
+header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 128, 0.8); /* Navy Blue Background with Transparency */
+}
+
+header img {
+  width: 200px; /* Adjust logo size */
+  height: auto;
+  z-index: 10;
+  position: relative;
+}
+
+/* Navigation Links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
