@@ -8,8 +8,6 @@ body {
   padding: 0;
 }
 
-/* Removed body::before overlay that was dimming the background */
-
 nav a {
   color: white;
   text-decoration: none;
