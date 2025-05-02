@@ -1,41 +1,27 @@
-
-* { box-sizing: border-box; }
-body { font-family: Arial, sans-serif; margin: 0; background: #fff5f5; color: #333; }
-header { background: #b22222; color: white; padding: 1rem; }
-nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; }
-.logo img { height: 60px; }
-.nav-links { list-style: none; display: flex; gap: 1rem; }
-.nav-links a { color: white; text-decoration: none; }
-.hero { text-align: center; padding: 2rem; }
-.hero img { max-width: 100%; max-height: 400px; border-radius: 10px; }
-.btn { display: inline-block; margin-top: 1rem; background: #001f3f; color: white; padding: 0.75rem 1.25rem; text-decoration: none; border-radius: 5px; }
-footer { text-align: center; background: #b22222; color: white; padding: 1rem; }
-<link rel="stylesheet" href="style.css">
 /* General Body Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: white;
+  background-image: url('animal-silhouettes.png'); /* Path to the animal silhouettes image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffcccc; /* Light red background color if image fails to load */
   color: #333;
   margin: 0;
   padding: 0;
-  background-image: url('pawprint-background.png'); /* Path to the paw print image */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
 }
 
-/* Header Section with Logo */
-header {
+/* Header and Footer - Grey Background */
+header, footer {
+  background-color: grey;
+  color: white;
   text-align: center;
-  padding: 40px 0;
-  background-color: rgba(0, 0, 128, 0.8); /* Navy Blue Background with Transparency */
+  padding: 20px 0;
 }
 
-header img {
-  width: 200px; /* Adjust logo size */
-  height: auto;
-  z-index: 10;
-  position: relative;
+/* Header Content */
+header h1 {
+  font-size: 36px;
 }
 
 /* Navigation Links */
@@ -52,8 +38,14 @@ nav a:hover {
 
 /* Footer Styles */
 footer {
-  text-align: center;
+  font-size: 14px;
   padding: 20px;
-  background-color: #333;
-  color: white;
+}
+
+/* Text Content */
+main {
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 10px;
 }
