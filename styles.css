@@ -10,3 +10,44 @@ nav { display: flex; justify-content: space-between; align-items: center; max-wi
 .hero img { max-width: 100%; max-height: 400px; border-radius: 10px; }
 .btn { display: inline-block; margin-top: 1rem; background: #001f3f; color: white; padding: 0.75rem 1.25rem; text-decoration: none; border-radius: 5px; }
 footer { text-align: center; background: #b22222; color: white; padding: 1rem; }
+body {
+  background-color: white;
+  background-image: url('https://images.openai.com/thumbnails/6e510c84a5c2ab35726060d4fec3d37f.jpeg');
+  background-repeat: repeat;
+  background-size: 100px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  color: #4a4a4a;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+main {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  color: #777;
+}
+
